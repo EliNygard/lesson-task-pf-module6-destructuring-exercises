@@ -7,3 +7,9 @@ const car = {
   country: 'Japan',
   coupe: true,
 };
+
+
+const {manufacturer, model, country, coupe} = car;
+
+const carDetails = `This is the car you will buy: ${manufacturer}, ${model}, from ${country}, coupe: ${coupe}`;
+console.log(carDetails);
